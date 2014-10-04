@@ -18,6 +18,6 @@ RUN rm -rf  /tmp/libmlx4-1_1.0.5-1_amd64.deb
 
 # make
 RUN apt-get install -y make gcc automake libtool libopenmpi1.5-dev
-RUN apt-get install -y g++
+RUN apt-get install -y g++ vim wget
 
 
